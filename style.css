@@ -1,0 +1,16 @@
+.ns-bg {
+    background-color: #A12355;
+    background:linear-gradient(to top, rgba(236, 10, 142, 0.7), rgba(255, 0, 150, 0.9)), url('image/bg_image.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.ns-border-radius {
+    border-radius: 24px;
+}
+
+.ns-button {
+    width: 192px
+}
