@@ -16,11 +16,14 @@ export default function RootLayout ({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={inter.className}>
-        <ModalProvider />
-        {children}
-      </body>
-    </html>
+    <>
+      <link rel='icon' href='/favicon.png' />
+      <html lang='en'>
+        <body className={inter.className}>
+          <ModalProvider />
+          {children}
+        </body>
+      </html>
+    </>
   );
 }
