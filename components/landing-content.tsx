@@ -57,9 +57,8 @@ export const LandingContent = () => {
               </CardTitle>
               <CardContent className='pt-4 px-0'>
                 <p className='mb-5'>{project.description}</p>
-
-                <iframe src={project.url} height='600' className='rounded-md'></iframe>
               </CardContent>
+              <iframe src={project.url} height='600' className='rounded-md'></iframe>
             </CardHeader>
           </Card>
         ))}

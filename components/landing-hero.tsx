@@ -30,12 +30,12 @@ export const LandingHero = () => {
           />
         </div>
       </div>
-      <div className='flex items-center justify-center gap-x-2'>
+      <div className='flex items-center justify-center gap-x-2 pl-5'>
         <div className='relative h-32 w-32 mr-4'>
           <Image alt='Logo' fill src='/nu.svg' />
         </div>
         <div className='relative h-32 w-32 mr-4'>
-          <Image alt='Logo' fill src='/tw.svg' />
+          <Image alt='Logo' fill src='/TWKS.D.svg' />
         </div>
         <div className='relative h-32 w-32 mr-4'>
           <Image alt='Logo' fill src='/ge.svg' />

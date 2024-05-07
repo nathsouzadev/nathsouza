@@ -13,7 +13,7 @@ export const LandingNavBar = () => {
     <div className='p-4 bg-transparent flex items-center justify-between'>
       <Link href='/' className='flex items-center'>
         <div className='relative h-8 w-8 mr-4'>
-          <Image alt='Logo' fill src='/logo.jpeg' />
+          <Image alt='Logo' fill src='/logo.png' />
         </div>
       </Link>
       <div className='flex items-center gap-x-2'>
